@@ -21,7 +21,7 @@ export const useWindTurbine = () => {
   const [turbineState, setTurbineState] = useState<TurbineState>({
     isRotating: true,
     isPoweredOn: true,
-    rotationSpeed: 0.3, // Empezar directamente con velocidad
+    rotationSpeed: 0.3, // Empezar directamente con velocidadd
   });
 
   const updateSensorData = useCallback(() => {
